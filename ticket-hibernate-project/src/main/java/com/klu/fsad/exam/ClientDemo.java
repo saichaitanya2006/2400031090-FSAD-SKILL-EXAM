@@ -19,7 +19,7 @@ public class ClientDemo {
         sf.close();
     }
 
-    // Insert Ticket
+
     public static void insertTicket(SessionFactory sf)
     {
         Session session = sf.openSession();
@@ -38,7 +38,7 @@ public class ClientDemo {
         session.close();
     }
 
-    // Update Ticket using HQL
+    
     public static void updateTicket(SessionFactory sf,int id,String newName,String newStatus)
     {
         Session session = sf.openSession();
